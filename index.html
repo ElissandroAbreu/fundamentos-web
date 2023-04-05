@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ServiceCo.</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <header><!--criando um cabeçalho para nossa página com um menu-->
         <nav><!--vamos criar um menu utilizando listas-->
-            <ul>
+            <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav><!--aqui finaliza o meu menu-->
     </header>
-    <main>
 
-    <h2>Sobre Nós</h2>
+    <h2 class="center">Sobre Nós</h2>
+    <div class="container">
+        <div class="p-texto_sobre">
+            <p class="justify">
+                Prestamos consultoria em ESG, na qual é um serviço especializado para analisar, planejar e implantar o ESG na
+                sua empresa. No caso de já existirem práticas de ESG na
+                empresa a consultoria em ESG irá verificar como a sua empresa aborda as questões ambientais, sociais e de
+                governança e quais são seus impactos negativos
+                e positivos na sociedade, gerando ações para minimizar os negativos e potencializar os positivos, assim como
+                avaliar passivos.
+            </p>
+            <p class="justify">
+                O ESG (Environmental, Social e Governance) ou ASG é um conceito de adoção de estratégias e métricas Ambientais,
+                Sociais e de Governança na gestão de empresas.
+        
+                O termo de 2004 surgiu de uma provocação do ex-secretário geral da ONU, Kofi Annan, a CEOs de grandes
+                instituições financeiras, sobre como integrar fatores sociais,
+                ambientais e de governança no mercado de capitais. As 17 ODS (Objetivos de Desenvolvimento Sustentável) passaram
+                a integrar o ESG, reunindo os desafios e vulnerabilidades da sociedade como um todo na Agenda 2030.
+        
+                É um conceito que dá valores e propósitos as empresas, dando importância não apenas aos Shareholders
+                (acionistas, cotistas, donos), mas considerando as opiniões e a participação dos Stakeholders (clientes,
+                fornecedores, governo, sociedade).
+            </p> 
+        </div> 
+    
+        <div>
+            <img class="p-texto_sobre" src="assets/img/logo ServiceCo.png" alt="foto logo da empresa" width="200px">
+       </div>
+       
+    </div>
 
-    <p>
-        Prestamos consultoria em ESG, na qual é um serviço especializado para analisar, planejar e implantar o ESG na
-        sua empresa. No caso de já existirem práticas de ESG na
-        empresa a consultoria em ESG irá verificar como a sua empresa aborda as questões ambientais, sociais e de
-        governança e quais são seus impactos negativos
-        e positivos na sociedade, gerando ações para minimizar os negativos e potencializar os positivos, assim como
-        avaliar passivos.
-    </p>
-    <p>
-        O ESG (Environmental, Social e Governance) ou ASG é um conceito de adoção de estratégias e métricas Ambientais,
-        Sociais e de Governança na gestão de empresas.
+    <h2 class="center">Sustentabilidade:</h2>
 
-        O termo de 2004 surgiu de uma provocação do ex-secretário geral da ONU, Kofi Annan, a CEOs de grandes
-        instituições financeiras, sobre como integrar fatores sociais,
-        ambientais e de governança no mercado de capitais. As 17 ODS (Objetivos de Desenvolvimento Sustentável) passaram
-        a integrar o ESG, reunindo os desafios e vulnerabilidades da sociedade como um todo na Agenda 2030.
-
-        É um conceito que dá valores e propósitos as empresas, dando importância não apenas aos Shareholders
-        (acionistas, cotistas, donos), mas considerando as opiniões e a participação dos Stakeholders (clientes,
-        fornecedores, governo, sociedade).
-    </p>
-
-    <img src="assets/img/logo ServiceCo.png" alt="foto logo da empresa" width="200px">
-
-    <h2>Sustentabilidade:</h2>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/4_ULA2ghFE8" title="YouTube video player"
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4_ULA2ghFE8" title="YouTube video player"
         frameborder="0" allow="accelerometer; 
      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-    </main>
-
+        </iframe>
+    </div>
+    <hr>
+    <footer class="center">
+        <p>Todos os Direitos Reservados ServiceCo &copy;</p>
+    </footer>
+    
 
 </body>
-
 </html>
